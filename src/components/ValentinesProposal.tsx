@@ -11,42 +11,42 @@ const playfairDisplay = Playfair_Display({
 
 // 36 images
 const images = [
-  "/game-photos/1.avif",
-  "/game-photos/2.avif",
-  "/game-photos/3.avif",
-  "/game-photos/4.avif",
-  "/game-photos/5.avif",
-  "/game-photos/6.avif",
-  "/game-photos/7.avif",
-  "/game-photos/8.avif",
-  "/game-photos/9.avif",
-  "/game-photos/10.avif",
-  "/game-photos/11.avif",
-  "/game-photos/12.avif",
-  "/game-photos/13.avif",
-  "/game-photos/14.avif",
-  "/game-photos/15.avif",
-  "/game-photos/16.avif",
-  "/game-photos/17.avif",
-  "/game-photos/18.avif",
-  "/game-photos/19.avif",
-  "/game-photos/20.avif",
-  "/game-photos/21.avif",
-  "/game-photos/22.avif",
-  "/game-photos/23.avif",
-  "/game-photos/24.avif",
-  "/game-photos/25.avif",
-  "/game-photos/26.avif",
-  "/game-photos/27.avif",
-  "/game-photos/28.avif",
-  "/game-photos/29.avif",
-  "/game-photos/30.avif",
-  "/game-photos/31.avif",
-  "/game-photos/32.avif",
-  "/game-photos/33.avif",
-  "/game-photos/34.avif",
-  "/game-photos/35.avif",
-  "/game-photos/36.avif",
+  "/game-photos-1/1.avif",
+  "/game-photos-1/2.avif",
+  "/game-photos-1/3.avif",
+  "/game-photos-1/4.avif",
+  "/game-photos-1/5.avif",
+  "/game-photos-1/6.avif",
+  "/game-photos-1/7.avif",
+  "/game-photos-1/8.avif",
+  "/game-photos-1/9.avif",
+  "/game-photos-1/10.avif",
+  "/game-photos-1/11.avif",
+  "/game-photos-1/12.avif",
+  "/game-photos-1/13.avif",
+  "/game-photos-1/14.avif",
+  "/game-photos-1/15.avif",
+  "/game-photos-1/16.avif",
+  "/game-photos-1/17.avif",
+  "/game-photos-1/18.avif",
+  "/game-photos-1/19.avif",
+  "/game-photos-1/20.avif",
+  "/game-photos-1/21.avif",
+  "/game-photos-1/22.avif",
+  "/game-photos-1/23.avif",
+  "/game-photos-1/24.avif",
+  "/game-photos-1/25.avif",
+  "/game-photos-1/26.avif",
+  "/game-photos-1/27.avif",
+  "/game-photos-1/28.avif",
+  "/game-photos-1/29.avif",
+  "/game-photos-1/30.avif",
+  "/game-photos-1/31.avif",
+  "/game-photos-1/32.avif",
+  "/game-photos-1/33.avif",
+  "/game-photos-1/34.avif",
+  "/game-photos-1/35.avif",
+  "/game-photos-1/36.avif",
 ];
 
 export default function ValentinesProposal() {
@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Congratulations Cheelcee! You have completed the game ❤️.
           </motion.h2>
         )}
         {step === 1 && (
@@ -132,7 +132,7 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Will you be my Valentine?
+              Will you be Zwanga's Valentine?
             </h2>
             <Image
               src="/sad_hamster.png"
@@ -175,8 +175,8 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            So happy you accepted, Appreciate you a lot love! 💕
+            <p className="text-sm mt-4">Check your messages, there is something for you 💌</p>
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"

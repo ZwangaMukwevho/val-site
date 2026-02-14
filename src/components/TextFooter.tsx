@@ -33,7 +33,7 @@ export default function TextFooter() {
       {/* Copyright */}
       <p className="absolute bottom-5 right-5 text-white text-sm opacity-15 hover:opacity-50">
         © {new Date().getFullYear()}{" "}
-        <Link href="https://zwangam.com">zwangam.co.za</Link>
+        <Link href="https://zwangam.co.za">zwangam.co.za</Link>
       </p>
     </>
   );

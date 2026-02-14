@@ -25,7 +25,7 @@ export default function TextFooter() {
 
       {/* Center Bottom Text */}
       <h1
-        className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white text-3xl lg:text-4xl font-semibold text-center ${playfairDisplay.className}`}
+        className={`absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-3xl lg:text-4xl font-semibold text-center ${playfairDisplay.className}`}
       >
         Some of our best memories.
       </h1>
